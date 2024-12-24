@@ -90,7 +90,7 @@ export const projectsData = [
       "DrawFlow is a powerful web application that allows users to create, edit, and share fowcharts and diagrams with ease",
     tags: ["React", "Next.js", "Typescript", "Convex", "Tailwind", "Kinde"],
     imageUrl: drawflow,
-    url: "https://github.com/xanmoy/medinova.git", 
+    url: "https://github.com/xanmoy/drawflow.git", 
   },
   {
     title: "Xeoly",
