@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');@tailwind base;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html {
   --line-color: #e5e7eb;
+  --font-h1: clamp(3.2rem, .5692rem + 8.238vw, 13.75rem);
+  --font-h2: clamp(2.4rem, .5692rem + 4.238vw, 10.75rem);
 
 }
 
@@ -16,8 +19,32 @@ html.dark {
 }
 
 h1{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Lato", serif;
+  /* font-size: 2.5rem; */
+  /* font-size: var(--font-h1); */
+  font-weight: 400;
+
+  font-size: 2.25rem /* 36px */;
+  line-height: 2.5rem /* 40px */;
 }
-body{
-  overflow-x: hidden;
+
+p{
+  font-family: "Lato", serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+/* @font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('/fonts/brandon-grotesque/HvDTrial_Brandon_Grotesque_regular-BF64a625c9311e1.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('/fonts/brandon-grotesque/HvDTrial_Brandon_Grotesque_black-BF64a625c944b08.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-size: xx-large;
 }

@@ -7,7 +7,7 @@ export default async function Home() {
 
     return (
         <div className="flex flex-col items-center px-4">
-            <h2 className="text-5xl sm:text-7xl font-bold mb-6">Notes.</h2>
+            <h2 className="text-5xl sm:text-7xl font-bold mb-6" style={{ fontFamily: 'Brandon Grotesque, sans-serif' }}>Notes.</h2>
             <div className="space-y-4 group mb-3 sm:mb-8 last:mb-0">
                 {posts.map((post) => (
                     <article

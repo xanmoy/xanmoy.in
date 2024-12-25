@@ -32,7 +32,9 @@ export default function Contact() {
                 once: true,
             }}
         >
-            <SectionHeading>Contact me</SectionHeading>
+                <SectionHeading>
+                    <span className="text-5xl sm:text-7xl" style={{ fontFamily: 'Brandon Grotesque, sans-serif' }}>Contact me.</span>
+                </SectionHeading>
 
             <p className="text-gray-700 mb-6 pb-3 dark:text-white/80">
                     Have an exciting project where you need some help?
