@@ -10,7 +10,7 @@ export default function NotFound() {
 
             <h2 className="text-3xl font-bold mb-4">404 - Page Not Found</h2>
             <p className="mb-4">Sorry, the page you are looking for does not exist.</p>
-            <Link href="/" className="text-blue-600 hover:underline">
+            <Link href="/" className="text-black/[0.7]  hover:underline">
                 Go back to the homepage
             </Link>
         </div>
