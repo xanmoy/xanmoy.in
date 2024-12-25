@@ -21,9 +21,9 @@ export default function Intro() {
       className="mb-28 max-w-[50rem] pt-6 text-center sm:mb-0 scroll-mt-[100rem]"
     >
       <div className='flex items-baseline lg:pt-3 md:pt-16 pb-5 justify-center'>
-        <h2 className='text-white text-sm lg:text-lg border px-3 p-2 rounded-full border-white text-center'>
+        <h2 className='dark:text-white text-black text-sm lg:text-lg border px-3 p-2 rounded-full border-black dark:border-white text-center'>
           <span >
-            ChatGPT Desktop Beta Launched | <Link href="https://snapcraft.io/chatgpt-desktop-client" target="_blank" className='text-gray-900'>Get It</Link>
+            ChatGPT Desktop Beta Launched | <Link href="https://snapcraft.io/chatgpt-desktop-client" target="_blank" className='dark:text-gray-600 text-gray-400'>Get It</Link>
           </span>
         </h2>
       </div>
