@@ -1,4 +1,4 @@
-qq"use client";
+"use client";
 
 import { useRef } from "react";
 import { projectsData } from "@/lib/data";
