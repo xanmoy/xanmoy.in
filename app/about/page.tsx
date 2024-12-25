@@ -30,12 +30,12 @@ export default function About() {
                             >
                                 <Image
                                     src="/xanmoy.jpeg"
-                                    alt="Ricardo portrait"
+                                    alt="Tanmoy"
                                     width="192"
                                     height="192"
                                     quality="95"
                                     priority={true}
-                                    className="h-80 w-80 rounded-t-3xl object-cover shadow-xl"
+                                    className="h-80 w-80 rounded-lg object-cover shadow-xl"
                                 />
                             </motion.div>
 
