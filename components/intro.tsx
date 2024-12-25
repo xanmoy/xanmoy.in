@@ -21,11 +21,11 @@ export default function Intro() {
       className="mb-28 max-w-[50rem] pt-6 text-center sm:mb-0 scroll-mt-[100rem]"
     >
       <div className='flex items-baseline lg:pt-3 md:pt-16 pb-5 justify-center'>
-        <h2 className='dark:text-white text-black text-sm lg:text-lg border px-3 p-2 rounded-full border-black dark:border-white text-center'>
+        <h3 className='dark:text-white text-black text-sm lg:text-lg border px-3 p-2 rounded-full border-black dark:border-white text-center'>
           <span >
             ChatGPT Desktop Beta Launched | <Link href="https://snapcraft.io/chatgpt-desktop-client" target="_blank" className='text-gray-400'>Get It</Link>
           </span>
-        </h2>
+        </h3>
       </div>
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -48,15 +48,17 @@ export default function Intro() {
         className="mt-4 px-1 text-4xl font-medium sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
+        style={{ fontFamily: 'Brandon Grotesque, sans-serif',fontSize: '2.5rem' }}
       >
         <span className="font-bold sm:text-7xl">Hi. I'm Tanmoy.</span> 
         
 
       </motion.h1>
       <motion.h1
-        className="mb-10 mt-4 text-4xl font-medium sm:text-4xl w-full"
+        className="mb-10 mt-4 font-medium sm:text-4xl w-full"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
+        style={{ fontFamily: 'Brandon Grotesque, sans-serif', fontSize: '2.5rem' }}
         // !leading-[1.5]
       >
         

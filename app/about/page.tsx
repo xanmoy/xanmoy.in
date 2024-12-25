@@ -17,7 +17,20 @@ export default function About() {
 
             <section>
                 <div className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+                ><motion.h1
+                    className="mb-10 mt-16 px-4 text-4xl font-medium !leading-[1.5] sm:text-4xl"
+                    initial={{ opacity: 0, y: 100 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    style={{ fontFamily: 'Brandon Grotesque, sans-serif' }}
                 >
+                        <span className="font-bold sm:text-7xl">Hi. I'm Tanmoy.</span>
+                        <br />
+                        <span className="font-bold sm:text-7xl whitespace-nowrap">a Software Engineer.</span><br />
+                       
+
+
+
+                    </motion.h1>
                     <div className="flex items-center justify-center">
                         <div className="relative">
                             <motion.div
@@ -29,7 +42,7 @@ export default function About() {
                                 }}
                             >
                                 <Image
-                                    src="/xanmoy.jpeg"
+                                    src="/ganguly.jpg"
                                     alt="Tanmoy"
                                     width="192"
                                     height="192"
@@ -43,17 +56,7 @@ export default function About() {
                         </div>
                     </div>
 
-                    <motion.h1
-                        className="mb-10 mt-16 px-4 text-4xl font-medium !leading-[1.5] sm:text-4xl"
-                        initial={{ opacity: 0, y: 100 }}
-                        animate={{ opacity: 1, y: 0 }}
-                    >
-                        <span className="font-bold sm:text-7xl">Hi. I'm Tanmoy.</span>                         <br />
-                        <span className="font-bold sm:text-7xl whitespace-nowrap">a Software Engineer.</span>
-                       
-                       
-                        
-                    </motion.h1>
+                    
 
                    
                 </div>
