@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <p className="text-sm text-gray-500 sm:text-center dark:text-gray-400 hidden sm:block">
-              © 2024{" "}
+              © 2025{" "}
               <a href="/" className="hover:underline">
                 Xanmoy
               </a>
@@ -53,10 +53,10 @@ export default function Footer() {
                 </li>
                 <li className="mb-4">
                   <a
-                    href="https://accounts.fedoraproject.org/user/xanmoy/"
+                    href="https://hub.docker.com/u/xanmoydev"
                     className="hover:underline"
                   >
-                    Fedora
+                    DockerHub
                   </a>
                 </li>
               </ul>
@@ -134,7 +134,7 @@ export default function Footer() {
           </div>
           <div className="pt-7 text-center">
             <span className="text-sm pt-4 sm:hidden text-gray-500 sm:text-center dark:text-gray-400">
-              © 2024{" "}
+              © 2025{" "}
               <a href="/" className="hover:underline">
                 Xanmoy
               </a>
